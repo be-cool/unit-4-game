@@ -1,0 +1,16 @@
+body {
+    background-color: goldenrod
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.img-fluid {
+    height: 50%;
+    object-fit: cover;
+}
+
+.yoshi {
+    
+}
