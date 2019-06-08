@@ -1,16 +1,36 @@
 body {
-    background-color: goldenrod
-}
 
-.jumbotron {
-    text-align: center;
 }
 
 .img-fluid {
-    height: 50%;
+    height: 90%;
     object-fit: cover;
+    padding-bottom: 3%;
+    display: block;
+    margin: 0 auto;
+    border: dotted;
+    padding: 5%;
 }
 
-.yoshi {
-    
+.col {
+    height: 220px;
+}
+
+
+.attack, .defend {
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.background {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.header {
+    text-align: center;
 }
