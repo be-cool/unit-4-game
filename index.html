@@ -14,43 +14,44 @@
 </head>
 
 <body>
-    <div class = "background">
-    <div class = "header">
+    <div class="background">
+        <div class="header">
+            <div class="container">
+                <h1 class="display-4">RPG Game</h1>
+                <p class="lead">Pick your favorite character to do battle!</p>
+            </div>
+        </div>
+
         <div class="container">
-            <h1 class="display-4">RPG Game</h1>
-            <p class="lead">Pick your favorite character to do battle!</p>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row justify-content-md-center">
-            <div class="col col-xs-3">
-                <img src="assets/images/mario.png" class="img-fluid" alt="Responsive image">
-            </div>
-            <div class="col col-xs-3">
-                <img src="assets/images/Peach.png" class="img-fluid" alt="Responsive image">
-            </div>
-            <div class="col col-xs-3 yoshi">
-                <img src="assets/images/donkey kong.png" class="img-fluid" alt="Responsive image">
-            </div>
-            <div class="col col-xs-3">
-                <img src="assets/images/yoshi.png" class="img-fluid" alt="Responsive image">
+            <div class="row justify-content-md-center">
+                <div class="col col-xs-3">
+                    <img id=mario src="assets/images/mario.png" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col col-xs-3">
+                    <img id=peach src="assets/images/Peach.png" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col col-xs-3 yoshi">
+                    <img id=dk src="assets/images/donkey kong.png" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col col-xs-3">
+                    <img id=yoshi src="assets/images/yoshi.png" class="img-fluid" alt="Responsive image">
+                </div>
             </div>
         </div>
-    </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col attack">
-                Attacker
-            </div>
-            <div class="col defend">
-                Defender
+        <div class="container">
+            <div class="row fight">
+                <div class="col attack">
+                    Attacker
+                </div>
+                <div class="col defend">
+                    Defender
+                </div>
             </div>
         </div>
-    </div>
 
     </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/game.js"></script>
 </body>
 
