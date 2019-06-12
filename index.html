@@ -22,33 +22,48 @@
             </div>
         </div>
 
-        <div class="container">
+        <div class="container characters">
             <div class="row justify-content-md-center">
                 <div class="col col-xs-3">
+                    Mario
                     <img id=mario src="assets/images/mario.png" class="img-fluid" alt="Responsive image">
                 </div>
                 <div class="col col-xs-3">
+                    Peach
                     <img id=peach src="assets/images/Peach.png" class="img-fluid" alt="Responsive image">
                 </div>
-                <div class="col col-xs-3 yoshi">
+                <div class="col col-xs-3">
+                    Donkey Kong
                     <img id=dk src="assets/images/donkey kong.png" class="img-fluid" alt="Responsive image">
                 </div>
                 <div class="col col-xs-3">
+                    Yoshi
                     <img id=yoshi src="assets/images/yoshi.png" class="img-fluid" alt="Responsive image">
                 </div>
             </div>
         </div>
 
-        <div class="container">
-            <div class="row fight">
-                <div class="col attack">
-                    Attacker
-                </div>
-                <div class="col defend">
-                    Defender
-                </div>
+        <div class="row fight">
+            <div id="challengerBox" class="col-md-4">
+                <h3>Attacker</h3>
+                <div class="attack"></div>
+                <div class="challenderHp"></div>
+            </div>
+
+            <div id="punchBox" class="col-md-1">
+                <button type="button" class="btn btn-danger" id="punch">ATTACK</button>
+                <div class="challengerStatement"></div>
+                <br>
+                <div class="defenderStatement"></div>
+            </div>
+
+            <div id="defenderBox" class="col-md-4">
+                <h3>Defender</h3>
+                <div class="defend"></div>
+                <div class="defenderHp"></div>
             </div>
         </div>
+    </div>
 
     </div>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

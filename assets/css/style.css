@@ -1,5 +1,6 @@
 body {
-
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
 }
 
 .img-fluid {
@@ -9,20 +10,26 @@ body {
     display: block;
     margin: 0 auto;
     border: dotted;
-    padding: 5%;
+    padding: 5%
 }
 
 .col {
-    height: 220px;
+    height: 250px;
+}
+
+.col-xs-3 {
+    font-size: 3vh;
+    margin-bottom: 20px;
 }
 
 
 .attack, .defend {
     text-align: center;
     font-family: 'Patrick Hand', cursive;
-    font-size: 200%;
+    /* font-size: 200%; */
     font-weight: bold;
     border: dotted;
+    padding: 25px;
 }
 
 .background {
@@ -37,5 +44,8 @@ body {
 }
 
 .fight {
-    height: 150;
+    text-align: center;
+    float: none;
+    justify-content: center;
 }
+
